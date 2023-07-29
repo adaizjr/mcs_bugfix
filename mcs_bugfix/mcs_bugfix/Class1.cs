@@ -78,7 +78,7 @@ namespace zjr_mcs
         public static void Avatar_setMonstarDeath_Postfix(Avatar __instance)
         {
             List<int> list = new List<int>();
-            List<int> tmp_list = new List<int>() { 4101, 4102, 4103, 4105 };
+            List<int> tmp_list = new List<int>() { 727, 729, 4101, 4102, 4103, 4105 };
             for (int i = 0; i < jsonData.instance.AvatarRandomJsonData.Count; i++)
             {
                 int tmp_ke = int.Parse(jsonData.instance.AvatarRandomJsonData.keys[i]);
